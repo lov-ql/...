@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Тайный Санта</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-scale">
+        <div class="page">
+
+            <header class="hero-header">
+                <img src="img/logo.png" alt="Логотип" class="hero-logo-img">
+
+                <nav class="hero-header__nav">
+                    <a href="#about">Что это</a>
+                    <a href="#rules">Правила</a>
+                    <a href="#faq">Вопросы</a>
+                </nav>
+
+                <button class="hero-header__cta btn btn-primary">Вход / регистрация</button>
+
+                <button class="mobile-menu-toggle" type="button" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+
+
+            <div class="mobile-menu-overlay">
+                <div class="mobile-menu-header">
+                    <button class="mobile-menu-back" type="button" aria-label="Закрыть меню">
+                        ✕
+                    </button>
+                </div>
+
+                <nav class="mobile-menu-nav">
+                    <a href="#santa-info">Что это</a>
+                    <a href="#rules">Правила</a>
+                    <a href="#faq">Вопросы</a>
+                    <button class="btn btn-primary mobile-menu-cta">Вход / регистрация</button>
+                </nav>
+            </div>
+
+
+            <main class="main">
+
+                <section class="hero-top">
+                    <div class="hero-top__center">
+                        <div class="hero-top__date">14.12.2025</div>
+
+                        <h1 class="hero-top__title">
+                            ТАЙНЫЙ САНТА
+                        </h1>
+
+                        <p class="hero-top__subtitle">
+                            Организуем тайный обмен<br>
+                            подарками между друзьями и<br>
+                            в ИУБиП
+                        </p>
+
+                        <button class="btn btn-primary hero-top__button">
+                            Участвовать
+                        </button>
+                    </div>
+
+                    <div class="hero-top__gallery">
+                        <div class="hero-card hero-card--1"></div>
+                        <div class="hero-card hero-card--2"></div>
+                        <div class="hero-card hero-card--3"></div>
+                        <div class="hero-card hero-card--4"></div>
+                        <div class="hero-card hero-card--5"></div>
+                    </div>
+                </section>
+
+                <section class="santa-info" id="santa-info">
+                    <div class="santa-info__grid">
+                        <div class="santa-info__text-block">
+                            <h2 class="santa-info__title">ЧТО ТАКОЕ<br>ТАЙНЫЙ САНТА?</h2>
+                            <p class="santa-info__lead">Игра анонимного обмена подарками.</p>
+                            <p class="santa-info__desc">Каждый случайно становится Тайным Сантой для другого. Вы знаете, кому дарите, но не знаете, кто дарит вам. 14.12 дарим подарки в актовом зале.</p>
+                            <button class="btn btn-primary santa-info__button">
+                                Получить приглашение
+                            </button>
+                        </div>
+
+                        <div class="santa-info__image-block">
+                            <div class="gallery-container">
+                                <div class="gallery-images">
+                                    <div class="gallery-image active" style="background-image: url('img/santa-gallery-1.jpg');"></div>
+                                    <div class="gallery-image" style="background-image: url('img/santa-gallery-2.jpg');"></div>
+                                    <div class="gallery-image" style="background-image: url('img/santa-gallery-3.jpg');"></div>
+                                    <div class="gallery-image" style="background-image: url('img/santa-gallery-4.jpg');"></div>
+                                </div>
+                                <div class="gallery-nav">
+                                    <button class="gallery-btn gallery-prev">‹</button>
+                                    <button class="gallery-btn gallery-next">›</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="faq" id="faq">
+                    <h2>Частые вопросы</h2>
+                    <div class="faq-wrapper">
+                        <div class="faq-accordion">
+                            <div class="faq-accordion-item">
+                                <button class="faq-accordion-header">
+                                    <span class="faq-accordion-title">Что делать, если я не знаю, что подарить человеку?</span>
+                                    <span class="faq-accordion-icon">+</span>
+                                </button>
+                                <div class="faq-accordion-content">
+                                    <p>Используйте его вишлист или выберите нейтральный универсальный подарок.</p>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <button class="faq-accordion-header">
+                                    <span class="faq-accordion-title">Можно ли дарить подарки, сделанные своими руками?</span>
+                                    <span class="faq-accordion-icon">+</span>
+                                </button>
+                                <div class="faq-accordion-content">
+                                    <p>Да, такие подарки часто нравятся больше всего, если сделаны с заботой.</p>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <button class="faq-accordion-header">
+                                    <span class="faq-accordion-title">Я не получил письмо с результатами жеребьёвки. Что делать?</span>
+                                    <span class="faq-accordion-icon">+</span>
+                                </button>
+                                <div class="faq-accordion-content">
+                                    <p>Проверьте папку «Спам». Если письма нет, свяжитесь с организатором игры.</p>
+                                </div>
+                            </div>
+                            <div class="faq-accordion-item">
+                                <button class="faq-accordion-header">
+                                    <span class="faq-accordion-title">К кому обратиться с вопросом по игре?</span>
+                                    <span class="faq-accordion-icon">+</span>
+                                </button>
+                                <div class="faq-accordion-content">
+                                    <p>Напишите организатору или в поддержку сервиса через форму на сайте.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-holly-bg"></div>
+                    </div>
+                </section>
+
+                <section class="rules" id="rules">
+                    <h2>ПРАВИЛА ИГРЫ</h2>
+
+                    <div class="rules-grid">
+
+                        <div class="rule-row rule-row--top">
+                            <div class="rule-card text row-upper">
+                                <h3>Выбор подарка</h3>
+                                <p>После жеребьёвки ты получишь имя получателя. Выбирай варианты, учитывая интересы человека.</p>
+                                <div class="decor-icon decor-left-bottom"
+                                     style="background-image: url('img/snowflake.png');"></div>
+                            </div>
+
+                            <div class="rule-card photo row-upper photo--top-center"></div>
+
+                            <div class="rule-card text row-upper">
+                                <h3>Анонимность</h3>
+                                <p>Запрещено раскрывать, кому вы готовите подарок. Тайна должна сохраняться до момента вручения.</p>
+                                <div class="decor-icon decor-right-top" style="background-image: url('img/bells.png');"></div>
+                            </div>
+                        </div>
+
+                        <div class="rule-row rule-row--bottom">
+                            <div class="rule-card text row-lower">
+                                <h3>Бюджет</h3>
+                                <p>Стоимость твоего подарка не должна превышать сумму 1000₽. Это правило обязательно для всех.</p>
+                                <div class="decor-icon decor-left-bottom candy" style="background-image: url('img/CandyR.png');"></div>
+                            </div>
+
+                            <div class="rule-card photo row-lower photo--bottom-center"></div>
+
+                            <div class="rule-card text row-lower">
+                                <h3>Рекомендации по подаркам</h3>
+                                <p>Книги, канцелярия, сладости, вещи для дома и хобби.</p>
+                                <div class="decor-icon decor-right-bottom"
+                                     style="background-image: url('img/Present.png');"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </main>
+
+            <footer class="footer-big">
+                <div class="footer-big__inner">
+                    <div class="footer-big__title">ТАЙНЫЙ САНТА</div>
+
+                    <div class="footer-big__bottom">
+                        <div class="footer-big__left">ИуБИП</div>
+                        <div class="footer-big__center">
+                            <a href="#about">Что это</a>
+                            <a href="#rules">Правила</a>
+                            <a href="#faq">Вопросы</a>
+                        </div>
+                        <div class="footer-big__right">© Все права защищены</div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+        <script src="scripts.js"></script>
+</body>
+</html>
